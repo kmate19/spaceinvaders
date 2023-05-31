@@ -1,0 +1,67 @@
+
+header h1,h2,h3,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:violet;
+}
+
+body,html{
+    height: 100%;
+    background-image: url(img/arcadeBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.player {
+    width: 50px;
+    height: 50px;
+}
+
+#jatekDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreDiv,#timeDiv{
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+}
+
+@media screen and (max-height: 951px) {
+    #jatekCanvas {
+        width: 400px !important;
+        height: 500px !important;
+    }
+}
+
+@media screen and (max-height: 740px) {
+    #jatekCanvas {
+        width: 400px !important;
+        height: 300px !important;
+    }
+}
+  
+#jatekCanvas{
+    background-color: black;
+    width: 600px;
+    height: 700px;
+}
+
+#leaderboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: black;
+}
