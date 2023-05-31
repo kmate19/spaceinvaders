@@ -1,2 +1,2 @@
 # spaceinvaders
-<h1>spaceinvaders jatek jsbe</h1>
+<h2>spaceinvaders jatek jsbe</h2>
